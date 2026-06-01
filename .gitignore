@@ -1,0 +1,11 @@
+# Data and model artifacts
+/data/
+/mlruns/
+*.pkl
+*.joblib
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
