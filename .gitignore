@@ -9,3 +9,11 @@ __pycache__/
 *.pyd
 .ipynb_checkpoints/
 .env
+# Local development
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Generated model artifacts
+/model_artifacts/
+/mlartifacts/
