@@ -17,3 +17,4 @@ __pycache__/
 # Generated model artifacts
 /model_artifacts/
 /mlartifacts/
+mlflow.db
