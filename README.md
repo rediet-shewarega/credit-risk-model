@@ -1,5 +1,7 @@
 # Credit Risk Probability Model for Alternative Data
 
+![CI](https://github.com/rediet-shewarega/credit-risk-model/actions/workflows/ci.yml/badge.svg?branch=week12-production-upgrade)
+
 This project implements an end-to-end credit risk scoring solution for Bati Bank using alternative ecommerce transaction data.
 
 ## Business Understanding
