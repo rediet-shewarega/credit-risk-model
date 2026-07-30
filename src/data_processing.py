@@ -60,19 +60,19 @@ class TransactionAggregator(BaseEstimator, TransformerMixin):
             )
 
         df[self.datetime_col] = pd.to_datetime(
-    df[self.datetime_col],
-    errors="coerce",
-    utc=True,
-)
+            df[self.datetime_col],
+            errors="coerce",
+            utc=True,
+            )
         if self.snapshot_date is None:
             self.snapshot_date_ = (
                 df[self.datetime_col].max() + pd.Timedelta(days=1)
             )
         else:
             self.snapshot_date_ = pd.to_datetime(
-    self.snapshot_date,
-    utc=True,
-)
+                self.snapshot_date,
+                utc=True,
+                )
 
         grouped = df.groupby(CUSTOMER_ID).agg(
             total_amount=("Amount", "sum"),
