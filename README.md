@@ -1,7 +1,6 @@
 # Credit Risk Probability Model for Alternative Transaction Data
 
-[![CI](https://github.com/rediet-shewarega/credit-risk-model/actions/workflows/ci.yml/badge.svg?branch=week12-production-upgrade)](https://github.com/rediet-shewarega/credit-risk-model/actions/workflows/ci.yml)
-
+[![CI](https://github.com/rediet-shewarega/credit-risk-model/actions/workflows/ci.yml/badge.svg?branch=week12-production-upgrade)](https://github.com/rediet-shewarega/credit-risk-model/actions/workflows/ci.yml)                   
 A production-oriented credit-risk scoring project that converts raw ecommerce transactions into customer-level risk estimates. The project includes reproducible model training, automated tests, continuous integration, model persistence, and an interactive Streamlit portfolio dashboard.
 
 > **Important:** The model uses an RFM-based proxy target rather than verified loan-default outcomes. Its predictions should support—not replace—human underwriting decisions and formal credit policy.
@@ -109,7 +108,6 @@ credit-risk-model/
 ├── app.py
 ├── Dockerfile
 ├── docker-compose.yml
-├── PROJECT_SUMMARY.md
 ├── README.md
 └── requirements.txt
 ```
@@ -207,12 +205,13 @@ The dashboard allows a stakeholder to:
 - Estimate exposure and expected loss under stated assumptions
 - Download scoring results for further analysis
 
-Add dashboard screenshots here after saving them under `docs/images/`:
+### Portfolio Overview
 
-```markdown
 ![Portfolio dashboard](docs/images/dashboard-overview.png)
+
+### Customer-Level Risk Results
+
 ![Customer risk results](docs/images/customer-risk-results.png)
-```
 
 ## Running Tests
 
@@ -351,10 +350,9 @@ Before production use, the following controls would be required:
 
 ## Documentation
 
-- [Week 12 gap analysis and improvement plan](docs/gap_analysis.md)
-- [Project summary](PROJECT_SUMMARY.md)
-- Technical report PDF: add the final report to `docs/` and link it here
-- Presentation: add the final presentation link here
+
+- [Week 12 Gap Analysis and Improvement Plan](docs/gap_analysis.md)
+- [Final Technical Report](docs/credit-risk-final-report.pdf)
 
 ## Responsible Use
 
@@ -365,5 +363,3 @@ This project is intended for educational and portfolio purposes. It must not be 
 **Rediet Shewarega**
 
 - GitHub: [rediet-shewarega](https://github.com/rediet-shewarega)
-- LinkedIn: Add your LinkedIn URL
-- Email: Add your professional email address
